@@ -16,8 +16,8 @@ group :test do
 end
 
 gem 'json', '~> 2.6', '>= 2.6.3'
-
-
+gem 'rubyzip', '~> 2.3.2'
+gem 'progressbar', '~> 1.13.0'
 gem 'linguistics'
 gem 'engtagger'
 gem 'open-nlp'
