@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'birch'
-gem 'schiphol'
+# gem 'schiphol'
 gem 'yomu'
 gem 'ruby-readability'
 gem 'nokogiri'
