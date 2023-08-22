@@ -4,7 +4,7 @@ gemspec
 
 gem 'birch'
 gem 'schiphol', git: 'git@github.com:hgcode/schiphol.git', ref: '5c509af'
-gem 'yomu'
+gem 'yomu', '~> 0.2.4'
 gem 'ruby-readability'
 gem 'nokogiri'
 
@@ -15,7 +15,7 @@ group :test do
   gem 'simplecov'
 end
 
-gem 'json', '~> 2.6', '>= 2.6.3'
+gem 'json'
 gem 'rubyzip', '~> 2.3.2'
 gem 'progressbar', '~> 1.13.0'
 gem 'linguistics'
