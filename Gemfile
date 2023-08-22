@@ -15,7 +15,9 @@ group :test do
   gem 'simplecov'
 end
 
-=begin
+gem 'json', '~> 2.6', '>= 2.6.3'
+
+
 gem 'linguistics'
 gem 'engtagger'
 gem 'open-nlp'
@@ -42,4 +44,4 @@ gem 'fuzzy-string-match'
 gem 'levenshtein-ffi'
 gem 'tf-idf-similarity'
 gem 'kronic'
-=end
+
